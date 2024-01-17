@@ -17,7 +17,7 @@ class RockPaperScissors {
             File testing = new File("./rock-paper-scissors/d.ffrench/input.txt");
             Scanner readIn = new Scanner(testing);
             while(readIn.hasNextLine()){
-                String data = readIn.;
+                String data = readIn.nextLine();
                 System.out.println(data);
             }
             readIn.close();
